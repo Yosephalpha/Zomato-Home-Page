@@ -1,0 +1,113 @@
+ /* header CSS */
+
+ body 
+        {
+        margin: auto;
+        }
+   a
+   {
+    text-decoration: none;
+   }
+
+ header
+   {
+    height: 80px;
+    /* border: 5px solid red; */
+    background-color: #310303;
+    color: white;
+   }
+
+    /* social logo */
+    
+.sociallogo
+ {
+    width: 50px;
+}
+    
+   /* search CSS */
+
+#search
+  {
+    height: 450px;
+    background-image: url("../IMAGE/london.jpg");
+    background-repeat: none;
+    background-size: 100% 450px;
+  }
+
+  /* quick search CSS */
+
+#quickSearch
+       {
+         height: 600px;
+         border: 10px groove gray;
+       }
+footer
+  {
+    height: 80px; 
+    border: 5px dotted blue;
+
+  }
+  #brand
+  {
+    float: left;
+    font-size: 30px;
+    color: white;
+    position: relative;
+    top: 15px;
+    left: 10px;
+  }
+  #socal
+  {
+    float: right;
+    position: relative;
+    top: 15px;
+    right: 10px;
+  }
+
+  /* logo CSS */
+
+  .logo{
+    background-color: white;
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+    position: absolute;
+    left: 40%;
+    bottom: 55%;
+  
+  }
+  .logo>span{
+    position: absolute;
+    top: 20px;
+    left: 20%;
+    color: red;
+    font-size: 91px;
+  }
+  .findByplace
+
+       {
+        width: 50%;
+        height: 50px;
+        border: 2px solid red;
+        position: absolute;
+        bottom: 30%;
+        left: 20%;
+        text-align: center;
+        font-size: 25px;
+       }
+       .selectioon
+                  {
+                    width: 50%;
+                    height: 50px;
+                    border: 2px solid red;
+                    position: absolute;
+                    left: 20%;
+                    bottom: 15%;
+                    text-align: center;
+                  }
+      .selecteBycity
+            {
+              width: 40%;
+              height: 200px;
+
+          }
